@@ -1,0 +1,54 @@
+@font-face{
+  font-family: TAN-HEADLINE-Regular;
+  src: url("/fonts/TANHEADLINE-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: Montserrat-VariableFont;
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype-variations');
+}
+
+@import "tailwindcss";
+
+@keyframes drawPath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw-path {
+  animation: drawPath 2s ease forwards;
+}
+
+@theme {
+  --color-buzzin-purple-50: #f5f2ff;
+  --color-buzzin-purple-100: #ede8ff;
+  --color-buzzin-purple-200: #dcd4ff;
+  --color-buzzin-purple-300: #c4b1ff;
+  --color-buzzin-purple-400: #a885ff;
+  --color-buzzin-purple-500: #8c52ff;
+  --color-buzzin-purple-600: #7f30f7;
+  --color-buzzin-purple-700: #711ee3;
+  --color-buzzin-purple-800: #5e18bf;
+  --color-buzzin-purple-900: #4e169c;
+  --color-buzzin-purple-950: #300b6a;
+
+  --color-buzzin-lime-50: #f6ffe5;
+  --color-buzzin-lime-100: #eaffc7;
+  --color-buzzin-lime-200: #d4ff95;
+  --color-buzzin-lime-300: #c1ff72;
+  --color-buzzin-lime-400: #98f625;
+  --color-buzzin-lime-500: #77dd05;
+  --color-buzzin-lime-600: #5ab100;
+  --color-buzzin-lime-700: #458605;
+  --color-buzzin-lime-800: #39690b;
+  --color-buzzin-lime-900: #30590e;
+  --color-buzzin-lime-950: #163201;
+
+  --color-buzzin-orange-logo: #ff5400;
+
+  --color-spotify-grey: #171313;
+
+  --font-TAN-HEADLINE-Regular: TAN-HEADLINE-Regular, "sans-serif";
+  --font-Montserrat-VariableFont: Montserrat-VariableFont, "sans-serif";
+}
