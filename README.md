@@ -15,12 +15,12 @@ The backend consists of a Spring Boot application hosted on Railway, which integ
 WordPress serves as a temporary content source, with posts and categories synced periodically into Supabase. 
 Eventually the site will transition away from using wordpress altogether. 
 
-### 🔗 Overall
+### 🔗
 
 The backend exposes a RESTful API which is consumed by the React app. 
 The overall architecture follows the MVC pattern, promoting clear separation of concerns and maintainability.
 
-### 🎯 Closing
+### 🎯 Thank You :)
 
 Thank you for viewing this project overview! This website represents my first professional software project, showcasing thoughtful UI/UX design, solid backend integration, and performance-conscious development. 
 I hope it provides a clear picture of my approach and technical skills.
