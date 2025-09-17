@@ -24,3 +24,5 @@ The overall architecture follows the MVC pattern, promoting clear separation of 
 
 Thank you for viewing this project overview! This website represents my first professional software project, showcasing thoughtful UI/UX design, solid backend integration, and performance-conscious development. 
 I hope it provides a clear picture of my approach and technical skills.
+
+Please note that this is just the public version of the repo, a snapshot from the earlier stage of the project's development, if you wish to view the live website you may do so at the following link: www.areyoubuzzin.ie
